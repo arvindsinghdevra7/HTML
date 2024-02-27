@@ -1,0 +1,20 @@
+.ye{
+    font-size: 25px;
+    color: #f08804;
+}
+
+div{
+    background-color: #0f1111;
+   
+    height: 60px;
+  
+}
+button{
+    background-color: #f08804;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    margin-left: 200px;
+    color: aliceblue;
+}
