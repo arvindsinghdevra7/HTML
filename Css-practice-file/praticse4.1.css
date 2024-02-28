@@ -3,12 +3,9 @@
     font-size: 25px;
     color: #f08804;
 }
-#black{
- 
-    background-color: #0f1111;
-    height: 60px;
+
    
-}
+
 button{
     background-color: #f08804;
     color: aliceblue;}
@@ -16,5 +13,24 @@ button{
         text-decoration: none;
         margin-left: 100px;
         color: aliceblue;
+    }
+    #black{
+        text-align: left;
+           background-color: #0f1111;
+           height: 60px;}
+    .box{
+        width: 100px;
+        height: 100px;
+        border: 3px solid rgb(14, 14, 8);
+        background-color: rgba(255, 0, 0, 0.5);
+        
+        
+    }
+    #content{
+        height: 400px;
+    }
+    footer{
+        background-color: #0f1111;
+        color: azure;
     }
    
