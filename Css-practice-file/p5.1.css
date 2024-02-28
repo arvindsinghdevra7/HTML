@@ -1,0 +1,12 @@
+
+div{
+    color: aliceblue;
+    background-image: url(image1.jpg);
+    background-size: cover;
+    
+    height: 300px;
+    width: 600px;
+    position: fixed;
+    right: 0%;
+    top: 0px;
+}
