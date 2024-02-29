@@ -1,0 +1,14 @@
+.navbar{
+    background-color: rgb(0, 255, 47);
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+display: inline;
+justify-content: space-evenly;
+}
