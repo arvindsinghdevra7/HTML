@@ -1,0 +1,16 @@
+.a22{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+
+}
+.a23{
+    background-color: rgb(58, 165, 42);
+    height: 50px;
+    width: 50px;
+}
+div{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
