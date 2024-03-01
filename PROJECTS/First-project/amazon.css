@@ -4,7 +4,84 @@
     border: border-box;
 }
 #navbar{
+.navbar{
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
+
+.navlogo{
+    height: 60px;
+    width: 120px;
+ 
+}
+.logo{
+   height: 55px;
+   width: 120px;
+    background-image: url(logo-amezon.png);
+    background-size: cover; 
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+/* Boxxx 2 */
+
+
+
+.ad1{
+color: #cccccc;
+font-size: 1rem;
+margin-left: 18px;
+}
+    
+
+
+.ad2{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+.loc{
+    display: flex;
+    align-items: center;
+}
+
+/* Box 3 */
+
+.nav-search{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 4px;
+}
+   .all{
+    height: 45px;
+    width: 20px;
+    color: #0f1111;
+    background-color: #ffffff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px ;
+  text-align: center;
+  border: none;
+   } 
+   .input{
+    width: 100%;
+   font-size: 1rem;
+   border: none;
+   }
+   .search-icon{
+    width: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+
+   }
