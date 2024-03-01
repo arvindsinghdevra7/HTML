@@ -14,5 +14,8 @@ div{
     justify-content: center;
   align-items: center
   ;
-transform: translate(35px);}
+transform: translate(35px);
+transform: skew(45deg);} 
+
+
 
