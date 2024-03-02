@@ -7,21 +7,26 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
-    display: flex;
+     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+
 }
 
 .navlogo{
+
     height: 60px;
     width: 120px;
+    margin-left: 10px;
  
 }
 .logo{
-   height: 55px;
+   height: 50px;
    width: 120px;
     background-image: url(logo-amezon.png);
     background-size: cover; 
 }
+
 .border{
     border: 1.5px solid transparent;
 }
@@ -29,14 +34,21 @@
     border: 1px solid white;
 }
 
-/* Boxxx 2 */
-
+/* Boxxx 2  */
+.location{
+ 
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    margin-left: 10px;
+}
 
 
 .ad1{
 color: #cccccc;
 font-size: 1rem;
-margin-left: 18px;
+margin-left: 20px;
 }
     
 
@@ -44,43 +56,171 @@ margin-left: 18px;
 .ad2{
     color: #ffffff;
     font-size: 1rem;
-    margin-left: 2px;
+    margin-left: 4px;
 }
 .loc{
     display: flex;
     align-items: center;
-}
+} 
 
-/* Box 3 */
+/*   Box 3   */
 
 .nav-search{
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly; 
     align-items: center;
-    width: 400px;
-    height: 40px;
-    background-color: brown;
+    width: 325px;
+    height: 60px;
+
     border-radius: 4px;
-}
-   .all{
-    height: 45px;
-    width: 20px;
+    margin-left: 10px;
+
+ }
+ /*  
+.nav-search:hover{
+    border: 2px solid orange;
+} */
+
+
+   .all3{
+    height: 40px;
+    width: 50px;
+  
     color: #0f1111;
     background-color: #ffffff;
     border-top-left-radius: 4px;
     border-bottom-left-radius:4px ;
   text-align: center;
+
   border: none;
    } 
-   .input{
+   .input2{
+    height: 38px;
     width: 100%;
-   font-size: 1rem;
+    /* font-size: -1rem;  */
    border: none;
    }
    .search-icon{
-    width: 4px;
+height: 40px;
+    display: flex;
+    width: 45px;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    /* font-size: 1.3rem; */
+    background-color:#febd68;
+
+   } 
+   /* box 4 */
+   .sign-in{
+    height: 43px;
+    width: 130px;
+   color: #ffffff;
+margin-left: 10px;
+/* margin-top: 18px; */
+align-items: center;
+   }
+
+   #sign1{
+    font-size: 14px;
+  
+   }
+   #sign2{
+    margin-top: 7px;
+   }
+   /* box 5 */
+   .return{
+    height: 43px;
+    margin-left: 10px;
+    align-items: center;
+  
 
    }
+   #return1{
+font-size: 14px;
+font-size: 14px;
+   }
+   #return2{
+    margin-top: 7px;
+   }
+   /* box 6 */
+  .cart0{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+  }
+  .cart{
+    font-size: 25px;
+  }
+  /* new 2 line start */
+  /* 1st box */
+#navbar2{
+    width: 1280px;
+    height: 39px;
+    background-color: #0f1111da;
+    color: white;
+    display: flex;
+  
+}
+    
+
+
+.list-icon{
+    height: 39px;
+    width: 58px;
+    display: flex;
+
+    
+    align-items: center;
+    margin-left: 50px;
+}
+/* 2nd row 2nd box */
+.tital{
+    height: 39px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.launch{
+    width: 400px;
+    height: 36px;
+    
+    background-image: url(newlauch.jpg);
+    background-size: cover;
+
+
+}
+/* row 3 start */
+.row3{
+    height: 410px;
+    width: 1280px;
+    background-image: url(row\ 3\ box.jpg);
+background-size: cover;
+}
+/* row 4 start */
+/* shop box */
+.shoping{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d3e0d7;
+
+}
+.box{
+    border: 2px solid black; 
+    height: 250px;
+    width: 23%;
+    background-color: white;
+}
+.box1image{
+   
+    background-image: url(Box1\ image.jpg);
+background-size: cover;
+height: 200px;
+width: 220px;
+margin-left: 8px;
+
+}
+   
+
+
