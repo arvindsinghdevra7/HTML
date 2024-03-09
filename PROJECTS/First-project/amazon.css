@@ -200,27 +200,92 @@ background-size: cover;
 }
 /* row 4 start */
 /* shop box */
-.shoping{
+.shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #d3e0d7;
-
+    background-color: #8e6326a7;
 }
 .box{
-    border: 2px solid black; 
-    height: 250px;
-    width: 25%;
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
     background-color: white;
+padding: 20px 0px 15px;
+margin-top: 15px;
 }
-.box1image{
-   
-    background-image: url(Box1\ image.jpg);
-background-size: cover;
-height: 200px;
-width: 270px;
-margin-left: 8px;
+.image-icon{
+  height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
 }
-   
+.box-content{
+ 
+    margin-left: 1rem;
+    margin-right: 1rem;
+    p{
+        color: #00718500;
+    }
+}
+/* footer */
+footer{
+    margin-top: 20px;
+}
+.footer1{
+    background-color: #37475a;
+color: white;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  .footer2{
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
 
+    background-color: #222f3d;
+    color: #cccccc;
+  } 
+
+ul a{
+    display: block;
+    font-size: small;
+    margin-top: 20px;
+}
+.footer3{
+    background-color:#000001;
+    color: #ffffff;
+  border-top: 0.5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+.logo{
+    height: 50px;
+    width: 120px;
+     background-image: url(logo-amezon.png);
+     background-size: cover; 
+ }
+.footer4{
+    background-color:#0f1111;
+    color: #ffffff;
+    height: 70px;
+ 
+}
+.pages{
+    padding-top: 20px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+ }
+    
 
