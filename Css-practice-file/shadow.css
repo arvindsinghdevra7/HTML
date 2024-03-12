@@ -1,0 +1,12 @@
+/* text shadow */
+h1{
+ text-shadow: 5px 5px 5px red;   
+}
+/* box shadow */
+.class3{
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+    box-shadow: 15px 15px 15px green,25px 25px  25px red ;
+    border: 13px solid gold;
+}
