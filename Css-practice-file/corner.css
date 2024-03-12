@@ -1,0 +1,38 @@
+.corner{
+    background-color: aqua;
+    height: 100px;
+    width: 300px;
+    
+}
+/* .class1{
+    text-align: left;
+  
+}
+.class2{
+    text-align: right;
+}
+.class3{
+    text-align: center;
+}
+.class4{
+text-align: end;
+}
+.class5{
+    text-align: bottom-l;
+} */
+
+.class2{
+    position: relative;
+    left: 260px;
+    bottom: 20px;
+}
+.class3{
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+}
+.class5{
+    position: relative;
+    left: 235px;
+    bottom: 20px;
+}
