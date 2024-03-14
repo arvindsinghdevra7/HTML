@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* first row */
+#container{
+    height: 100vh;
+overflow-x: hidden;
+overflow-y: auto;
+  perspective: 100px;
+    
+}
+
+.img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    height: 100%;
+    z-index: -1;
+}
+
+/* backgrpund image---> image1, 
+forground image---->image2 */
+
+.image1{
+    transform: translateZ(-40px) scale(2);
+
+}
+.image2{
+    transform: translateZ(-20px) scale(1.2);
+}
+
+.image1, .image2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
