@@ -1,0 +1,27 @@
+.container{
+    height: 500px;
+
+    background-color: rgb(252, 32, 32);
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: ifr ifr ifr;
+    gap: 15px;
+}
+
+
+.box{
+    background-color: aqua;
+   
+    /* width: 300px; */
+}
+#box1{
+    background-color: blue;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+#box4{
+    background-color: chartreuse;
+    grid-column-start: 4;
+    grid-column-end: 2;
+}
