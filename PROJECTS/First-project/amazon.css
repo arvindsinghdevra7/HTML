@@ -211,12 +211,16 @@ background-size: cover;
     height: 400px;
     width: 23%;
     background-color: white;
+    color: #000001;
 padding: 20px 0px 15px;
 margin-top: 15px;
 }
+
+
 .image-icon{
   height: 300px;
   background-size: cover;
+  background-position: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 
@@ -225,9 +229,9 @@ margin-top: 15px;
  
     margin-left: 1rem;
     margin-right: 1rem;
-    p{
+    /* p{
         color: #00718500;
-    }
+    } */
 }
 /* footer */
 footer{
