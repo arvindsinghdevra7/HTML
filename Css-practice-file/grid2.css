@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    background-color: white;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+}
+.box{
+    background-color: white;
+    border: 1px solid wheat;
+   
+}
+#heading{
+grid-column-start: 1;
+grid-column-end: 3;
+justify-self: center;
+align-self: center;
+
+}
+p{
+    color: blue;
+}
+.green{
+    color: green;
+}
+a{
+    color: rgb(2, 2, 23);
+}

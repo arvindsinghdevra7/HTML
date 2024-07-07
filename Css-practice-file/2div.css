@@ -9,13 +9,15 @@
     height: 50px;
     width: 50px;
 }
-div{
+ div{
     display: flex;
-    justify-content: center;
-  align-items: center
-  ;
-transform: translate(35px);
-transform: skew(45deg);} 
+   justify-content: center;
+   align-items: center
+  ; 
+ transform: translate(12px);
+transform: skew(45deg);}
+
+
 
 
 

@@ -19,7 +19,7 @@ div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap-reverse;
     align-items: center;
     /* align-content: end; */
 }
